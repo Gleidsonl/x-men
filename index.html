@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X-Men</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="css/responsivo.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="imagens/logo.svg" alt="Logo X-Men" />
+    </header>
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um Personagem</h1>
+        <ul class="lista-de-personagem">
+          <li class="personagem selecionado" id="ciclope" data-nome="Ciclope" data-descricao="  Ele tem o poder de disparar rajadas ópticas por um acidente que
+          aconteceu com ele quando criança, mas não consegue controlá-los">
+            <img src="imagens/card-ciclope.jpg" alt="Ciclope" />
+          </li>
+
+          <li class="personagem" id="jean-grey" data-nome="Jean Grey" data-descricao="Jean Grey é uma mutante nível ômega e o principal avatar da Força Fênix, no qual manifesta poderes cósmicos. A telepatia e telecinese.">
+            <img src="imagens/card-jean-grey.jpg" alt="Jean Grey" />
+          </li>
+
+          <li class="personagem" id="lince-negra" data-nome="Lince Negra" data-descricao="Originalmente denominada Ninfa, ela integrou a quarta formação dos X-Men, utilizando ao máximo sua habilidade de atravessar objetos sólidos e andar no ar.">
+            <img src="imagens/card-lince-negra.jpg" alt="Lince Negra" />
+          </li>
+
+          <li class="personagem" id="tempestade" data-nome="Tempestade" data-descricao="Senhora dos Elementos, Bruxa do Tempo, Deusa da Chuva, Andarilha dos Ventos, Rainha de Wakanda">
+            <img src="imagens/card-tempestade.jpg" alt="Tempestade" />
+          </li>
+
+          <li class="personagem" id="vampira" data-nome="Vampira" data-descricao=" seu poder mutante é a habilidade de absorver a vitalidade, memórias, habilidades e poderes de outros seres vivos através do contato com a pele">
+            <img src="imagens/card-vampira.jpg" alt="Vampira" />
+          </li>
+
+          <li class="personagem" id="wolverine" data-nome="Wolverine" data-descricao="é um mutante que possui sentidos afiados, capacidades físicas aprimoradas, habilidade regenerativa poderosa conhecida como fator de cura e três garras retratáveis ">
+            <img src="imagens/card-wolverine.jpg" alt="Wolverine" />
+          </li>
+
+          <li class="personagem" id="noturno" data-nome="Noturno" data-descricao="Noturno se orienta através da Dimensão do Enxofre por um senso de direção natural e subconsciente. ">
+            <img src="imagens/card-noturno.jpg" alt="Noturno" />
+          </li>
+
+          <li class="personagem" id="magneto" data-nome="Magneto" data-descricao=" Ele pode controlar e manipular campos magnéticos que vão muito além da habilidade de controlar metal">
+            <img src="imagens/card-magneto.jpg" alt="Magneto" />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="imagens/card-ciclope.png"
+          alt="Ciclope"
+        />
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Ele tem o poder de disparar rajadas ópticas por um acidente que
+            aconteceu com ele quando criança, mas não consegue controlá-los
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>
